@@ -1,0 +1,142 @@
+.content_content
+{
+    padding-left: 20px;
+}
+
+.table_link
+{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.table_link:hover
+{
+    color: gold;
+}
+
+.nothing
+{
+    font-size: 12px;
+    font-weight: normal;
+    font-style: italic;
+    display: block;
+    text-align: center;
+}
+
+.list_title
+{
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+/*Game list*/
+.game_list_image
+{
+    width: 110px;
+    height: auto;
+}
+
+.user_list_image
+{
+    width: 100px;
+    height: auto;
+}
+
+.game_list, .user_list
+{
+    list-style: none;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.game_list li, .user_list li
+{
+    display: inline-block;
+    width: 135px;
+    padding-left: 5px;
+    margin-right: 10px;
+}
+
+.game_name, .user_name
+{
+    color: white;
+    font-weight: bold;
+    text-decoration: none; 
+    text-transform: capitalize;
+}
+
+.game_name:hover, .user_name:hover
+{
+    color: gold;
+}
+
+.game_name p, .user_name p
+{
+    width: 135px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/*Activity table*/
+.activity_table
+{
+    max-width: 750px;
+    min-width: 300px;
+}
+
+.activity_table td
+{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.activity_table thead
+{
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.activity_table th
+{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.activity_table tbody tr
+{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.activity_table tbody tr:hover
+{
+    background-color: rgba(255, 215, 0, 0.1);
+}
+
+td.checked
+{
+    background-image: url('VGK_Icon/checked_gold.png');
+    background-position: center center; 
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+}
+
+.game_table_image
+{
+    width: 45px;
+    height: auto;
+}
+
+td.table_button
+{
+    background-color: transparent;
+}

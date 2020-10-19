@@ -1,0 +1,61 @@
+/*Pop up style*/
+
+.pop_up_div
+{
+    display: none;
+}
+
+
+.overlay
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    min-width: 800px;
+    min-height: 500px;
+    background: rgba(0,0,0,0.6);
+}
+
+
+.pop_up_form
+{
+    color: #eee;
+    margin:0px;
+    background-color: #333;
+    position: absolute;
+    border: 1px solid rgb(255,215,0);
+    left: 40%;
+    top: 20%;
+    border-radius:2px;
+    box-shadow:0 0 10px;
+    font-size:12px;
+    font-weight: bold;
+    float:left;
+}
+
+
+.pop_up_title
+{
+    height: 30px;
+    background-color: #800000;
+    padding:10px 30px;
+    font-size:14px;
+}
+
+.pop_up_tab
+{
+    padding:20px 30px;
+
+}
+
+.pop_up_tab tr
+{
+    padding: 6px;
+}
+
+.pop_up_tab td
+{
+    padding: 6px;
+}

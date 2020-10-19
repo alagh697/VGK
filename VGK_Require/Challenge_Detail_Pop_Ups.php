@@ -1,0 +1,10 @@
+<?php
+require('Challenge_Taker_Form_Add_Pop_Up.php');
+require('Challenge_Taker_Form_Update_Achievement_Pop_Up.php');
+if($session_user->getUser_number()==$challenge->getChallenge_originator()->getUser_number())
+{
+    require('Challenge_Invite_Form_Pop_Up.php');
+    require('Challenge_Winner_Form_Pop_Up.php');
+}
+require('News_Feed_Post_Form_Pop_Up.php');
+?>

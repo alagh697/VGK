@@ -1,0 +1,46 @@
+/*Content menu nav*/
+.content_menu_nav
+{
+    height: 50px;
+    background-color: maroon;
+    padding-left: 10px;
+    padding-top: 23px;
+    margin-bottom: 20px;
+	
+}
+
+.content_menu_nav li
+{
+    display: inline-block;
+    padding-bottom: 15px;
+}
+
+.content_menu_nav a
+{
+    padding: 4px;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+
+.content_menu_nav a:hover
+{
+    color: gold;
+    border-bottom: 5px solid gold;
+}
+
+.content_menu_nav a:active
+{
+    color: gold;
+    text-shadow: 0 0 10px;
+}
+
+.content_menu_nav a.active
+{
+    border-bottom: 5px solid gold;
+}

@@ -1,0 +1,86 @@
+input[type=text], input[type=password], input[type=email]
+{
+    background-color: black;
+    opacity: 0.8;
+    border: 2px solid rgb(72,72,72);
+    color: white;
+    width: 220px;
+    height: 30px;
+    padding-left: 4px;
+    font-size: 14px;
+}
+
+input[type=text]:focus, input[type=password]:focus, textarea:focus, input[type=email]:focus
+{
+    border-color: gold;
+    outline: none;
+}
+
+textarea
+{
+    background-color: black;
+    opacity: 0.8;
+    border: 2px solid rgb(72,72,72);
+    color: white;
+    width: 300px;
+    height: 80px;
+    padding-left: 4px;
+    font-size: 14px;
+    resize: none;
+}
+
+/*Button input*/
+input[type=submit], input[type=reset] 
+{
+    background-color: maroon;
+    margin-left: 5px;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 1px 1px 1px 1px;
+    border: 1px solid rgb(72,72,72);
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    outline: none;
+}
+
+input[type=submit]:hover, input[type=reset]:hover
+{
+    border: 1px solid gold;
+}
+
+input[type=submit]:active, input[type=reset]:active
+{
+    border-color: gold;
+    box-shadow:0 0 10px;
+    color: gold;
+}
+
+/*Select*/
+select
+{
+    background-color: black;
+    opacity: 0.8;
+    border: 2px solid rgb(72,72,72);
+    color: white;
+    height: 30px;
+    padding-left: 4px;
+    font-size: 14px;
+	
+}
+
+select:focus
+{
+    border-color: gold;
+    outline: none;
+}
+
+input.datepicker
+{
+    width: 85px;
+}
+
+input.timepicker
+{
+    width: 60px;
+}

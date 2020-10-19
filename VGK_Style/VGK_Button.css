@@ -1,0 +1,79 @@
+/*Button without submit*/
+.button
+{
+    background-color: maroon;
+    margin-left: 5px;
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 1px 1px 1px 1px;
+    border: 1px solid rgb(72,72,72);
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    outline: none;
+}
+
+.button:hover
+{
+    border: 1px solid gold;
+}
+
+.button:active
+{
+    border: 1px solid gold;
+    color: gold;
+}
+
+.icon_button
+{
+    background-color: maroon;
+    background-position: center; 
+    background-size: 14px 14px;
+    background-repeat: no-repeat;
+    margin-left: 1px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 1px 1px 1px 1px;
+    border: 1px solid rgb(72,72,72);
+    outline: none;
+}
+
+#settings_button
+{
+    background-image: url('VGK_Icon/settings_white.png');
+}
+
+#settings_button:hover
+{
+    background-image: url('VGK_Icon/settings_gold.png');
+}
+
+#unfollow_button:before
+{
+    content: "Abonné";
+}
+
+#unfollow_button:hover::before
+{
+    content: "Se désabonner";
+}
+
+#request_sent_button:before
+{
+    content: "Demande envoyée";
+}
+
+#request_sent_button:hover::before
+{
+    content: "Voir demande";
+}
+
+#request_received_button:before
+{
+    content: "Demande reçue";
+}
+
+#request_received_button:hover::before
+{
+    content: "Voir demande";
+}

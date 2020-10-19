@@ -1,0 +1,82 @@
+.right_sidebar 
+{
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    background-color: rgba(128, 0, 0, 0.2);
+    color: #eee;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+
+.right_sidebar_main_game
+{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+}
+
+.right_sidebar_list_title
+{
+    font-size: 10px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    display: block;
+}
+
+.right_sidebar_main_game_link
+{
+    font-weight: bold;
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.right_sidebar_list
+{
+    list-style: none;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.right_sidebar_list li
+{
+    padding-bottom: 10px;
+}
+
+.right_sidebar_list_link
+{
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.right_sidebar_list_link:hover, .right_sidebar_main_game_link:hover
+{
+    color: gold;
+}
+
+.right_sidebar_list_link p, .right_sidebar_main_game_link p
+{
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.right_sidebar_game_image
+{
+    width: 50px;
+    height: auto;
+}
+
+.right_sidebar_user_pp
+{
+    width: 40px;
+    height: 40px;
+}

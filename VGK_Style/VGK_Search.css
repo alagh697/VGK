@@ -1,0 +1,28 @@
+#search_input
+{
+    margin-left: 10px;
+    width: 90%;
+    box-sizing: border-box;
+    border: 2px solid rgba(255,255,255, 0.3);
+    font-size: 14px;
+    color: white;
+    background-color: #800000;
+    background-image: url('VGK_Icon/search.png');
+    background-position: 7px 7px; 
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    padding: 2px 15px 2px 35px;
+}
+
+#search_input:focus
+{
+    border-color: rgba(255,215,0, 0.7);
+    outline: none;
+}
+
+.autocomplete_result
+{
+    background-color: maroon;
+    border: 1px solid rgb(255,215,0);
+    left: 24px;
+}

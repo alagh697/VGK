@@ -1,0 +1,72 @@
+.form_log_reg
+{
+    padding: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background: #800000;
+    width: 650px;
+}
+
+.form_log_reg form
+{
+    padding: 15px;
+    overflow:hidden;
+    position:relative;
+    background-color: #333;
+    border: 1px solid gold;
+}
+
+form label
+{
+    font-size:12px;
+    font-weight: bold;
+}
+
+.form_log_reg_title
+{
+    padding: 3px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form_tab tr
+{
+    padding: 5px;
+}
+
+.form_tab td
+{
+    padding: 5px;
+}
+
+.remember_me
+{
+    font-style: italic;
+    font-weight: normal;
+    font-size: 10px;
+}
+
+.challenge_end_date
+{
+    display: none;
+}
+
+.user_option
+{
+    text-transform: capitalize;
+}
+
+.profile_edition_pp
+{
+    width: 70px;
+    height: 70px;
+    padding: 5px;
+}
+
+.error_span
+{
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+}

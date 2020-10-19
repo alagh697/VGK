@@ -1,0 +1,65 @@
+/*Male/Femelle Switch*/
+.MFswitch 
+{
+    position: relative; width: 40px;
+    -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;
+}
+
+.MFswitch-checkbox 
+{
+    display: none;
+}
+
+.MFswitch-label
+ {
+    display: block; overflow: hidden; cursor: pointer;
+    border: 2px solid #999999; border-radius: 20px;
+}
+
+.MFswitch-inner 
+{
+    display: block; width: 200%; margin-left: -100%;
+    transition: margin 0.3s ease-in 0s;
+}
+
+.MFswitch-inner:before, .MFswitch-inner:after 
+{
+    display: block; float: left; width: 50%; height: 14px; padding: 0; line-height: 12px;
+    font-size: 12px; color: white; font-family: Trebuchet, Arial, sans-serif; font-weight: bold;
+    box-sizing: border-box;
+}
+
+.MFswitch-inner:before 
+{
+    content: "M";
+    padding-left: 7px;	
+    padding-top: 1px;
+    background-color: blue; color: #FFFFFF;
+}
+.MFswitch-inner:after 
+{
+    content: "F";
+    padding-right: 7px;
+    padding-top: 1px;
+    background-color: #FF1493; color: #FFFFFF;
+    text-align: right;
+}
+
+.MFswitch-switch 
+{
+    display: block; width: 10px; margin: 1px;
+    background: #FFFFFF;
+    position: absolute; top: 0; bottom: 0;
+    right: 24px;
+    border: 2px solid #999999; border-radius: 20px;
+    transition: all 0.3s ease-in 0s; 
+}
+
+.MFswitch-checkbox:checked + .MFswitch-label .MFswitch-inner 
+{
+    margin-left: 0;
+}
+.MFswitch-checkbox:checked + .MFswitch-label .MFswitch-switch
+{
+    right: 0px; 
+}

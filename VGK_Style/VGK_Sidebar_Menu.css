@@ -1,0 +1,367 @@
+.sidebar 
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 240px;
+    background: #800000;
+    color: #eee;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+
+.top
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.vgk_name_img
+{
+    max-width: 100%;
+    height: auto;
+}
+
+.menu_nav
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.title 
+{
+    border-bottom: 1px solid #222;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.title_span
+{
+    line-height: 27px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.section_link
+{
+    padding-bottom: 5px;
+    padding-left: 30px;
+    white-space: nowrap;
+    color: white;
+    text-decoration: none;
+    background-position: 0px 0px; 
+    background-size: 25px 20px;
+    background-repeat: no-repeat;
+}
+
+.section_link:hover
+{
+    cursor: pointer;
+    color: gold;
+}
+
+/*sidebar icon and image*/
+.sidebar_pp
+{
+    width: 25px;
+    height: 25px;
+}
+
+.sidebar_main_game_cover
+{
+    width: 35px;
+    height: 50px;
+}
+
+#news_section
+{
+    background-image: url('VGK_Icon/news_white.png');
+}
+
+#news_section:hover
+{
+    background-image: url('VGK_Icon/news_gold.png');
+}
+
+#messenger_section
+{
+    background-image: url('VGK_Icon/mail_white.png');
+}
+
+#messenger_section:hover
+{
+    background-image: url('VGK_Icon/mail_gold.png');
+}
+
+#notif_section
+{
+    background-image: url('VGK_Icon/bell_white.png');
+}
+
+#notif_section:hover
+{
+    background-image: url('VGK_Icon/bell_gold.png');
+}
+
+#event_section
+{
+    background-image: url('VGK_Icon/calendar_white.png');
+}
+
+#event_section:hover
+{
+    background-image: url('VGK_Icon/calendar_gold.png');
+}
+
+#team_section
+{
+    background-image: url('VGK_Icon/shield_white.png');
+}
+
+#team_section:hover
+{
+    background-image: url('VGK_Icon/shield_gold.png');
+}
+
+#community_section
+{
+    background-image: url('VGK_Icon/team_white.png');
+}
+
+#community_section:hover
+{
+    background-image: url('VGK_Icon/team_gold.png');
+}
+
+#game_section
+{
+    background-image: url('VGK_Icon/game_white.png');
+}
+
+#game_section:hover
+{
+    background-image: url('VGK_Icon/game_gold.png');
+}
+
+#goal_section
+{
+    background-image: url('VGK_Icon/goal_white.png');
+}
+
+#goal_section:hover
+{
+    background-image: url('VGK_Icon/goal_gold.png');
+}
+
+#availability_section
+{
+    background-image: url('VGK_Icon/help_white.png');
+}
+
+#availability_section:hover
+{
+    background-image: url('VGK_Icon/help_gold.png');
+}
+
+#session_section
+{
+    background-image: url('VGK_Icon/coop_white.png');
+}
+
+#session_section:hover
+{
+    background-image: url('VGK_Icon/coop_gold.png');
+}
+
+#challenge_section
+{
+    background-image: url('VGK_Icon/challenge_white.png');
+}
+
+#challenge_section:hover
+{
+    background-image: url('VGK_Icon/challenge_gold.png');
+}
+
+#duel_section
+{
+    background-image: url('VGK_Icon/vs_white.png');
+}
+
+#duel_section:hover
+{
+    background-image: url('VGK_Icon/vs_gold.png');
+}
+
+#compet_section
+{
+    background-image: url('VGK_Icon/trophy_white.png');
+}
+
+#compet_section:hover
+{
+    background-image: url('VGK_Icon/trophy_gold.png');
+}
+
+#broadcast_section
+{
+    background-image: url('VGK_Icon/tv_white.png');
+}
+
+#broadcast_section:hover
+{
+    background-image: url('VGK_Icon/tv_gold.png');
+}
+
+#forums_section
+{
+    background-image: url('VGK_Icon/forum_white.png');
+}
+
+#forums_section:hover
+{
+    background-image: url('VGK_Icon/forum_gold.png');
+}
+
+#giveaway_section
+{
+    background-image: url('VGK_Icon/gift_white.png');
+}
+
+#giveaway_section:hover
+{
+    background-image: url('VGK_Icon/gift_gold.png');
+}
+
+/*Sidebar profil options buttons*/
+.sidebar_profil_options
+{
+    float:right;
+    padding-top: 5px;
+    padding-right: 5px;
+}
+
+.sidebar_button
+{
+    background-color: maroon;
+    background-position: 3px 5px; 
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+    margin-left: 3px;
+    padding: 10px;
+    padding-bottom: 1px;
+    cursor: pointer;
+    border-radius: 1px 1px 1px 1px;
+    border: 1px solid rgb(72,72,72);
+    outline: none;
+}
+
+.sidebar_button:active
+{
+    border-color: gold;
+}
+
+#sidebar_message_button
+{
+    background-image: url('VGK_Icon/mail_white.png');
+}
+#sidebar_message_button:hover
+{
+    background-image: url('VGK_Icon/mail_gold.png');
+}
+
+#sidebar_settings_button
+{
+    background-image: url('VGK_Icon/settings_white.png');
+}
+#sidebar_settings_button:hover
+{
+    background-image: url('VGK_Icon/settings_gold.png');
+}
+
+#sidebar_post_button
+{
+    background-image: url('VGK_Icon/loud_white.png');
+}
+#sidebar_post_button:hover
+{
+    background-image: url('VGK_Icon/loud_gold.png');
+}
+
+#sidebar_logout_button
+{
+    background-image: url('VGK_Icon/logout_white.png');
+}
+#sidebar_logout_button:hover
+{
+    background-image: url('VGK_Icon/logout_gold.png');
+}
+
+.friend_follow_sidebar_nav li
+{
+    display: inline-block;
+    padding: 2px 2px 2px 2px;
+    text-transform: uppercase;
+}
+
+.friend_follow_sidebar_nav li a
+{
+    font-size: 12px;
+    text-decoration: none;
+    color: #D3D3D3;
+}
+
+.friend_follow_sidebar_nav li a:hover
+{
+    color: gold;
+    cursor: pointer;
+}
+
+.friend_follow_stat
+{
+    color: gold;
+    font-weight: bold;
+    padding: 2px 2px 2px 2px;
+}
+
+.bottom_nav
+{
+    margin-top: 5px;
+}
+
+.bottom_nav li
+{
+    display: inline-block;
+    padding: 3px 0px 3px 4px;
+}
+.bottom_nav li a
+{
+    font-size: 12px;
+    text-decoration: none;
+    color: #D3D3D3;
+}
+
+.bottom_nav li a:hover
+{
+    color: gold;
+    cursor: pointer;
+}
+
+.copyright
+{
+    font-size: 12px;
+    display: block;
+    text-align: center;
+}
+
+.sidebar_count
+{
+    background-color: red;
+    margin-left: 10px;
+    margin-top: 3px;
+    padding: 3px;
+    border-radius: 5px;
+}

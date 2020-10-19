@@ -1,0 +1,220 @@
+.content_header
+{
+    width: 100%;
+    background-color: black;
+    padding: 10px 10px 10px 10px;
+    display: inline-block;
+}
+
+.content_header div
+{
+    padding-bottom: 10px;
+}
+
+.current_section_link
+{
+    padding-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.current_section_link:hover
+{
+    color: gold;
+    cursor: pointer;
+}
+
+.profile_section_image
+{
+    width: 80px;
+    height: 80px;
+}
+
+.page_name
+{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+/*Profil infos*/
+/*Main_game*/
+.content_header_main_game
+{
+    margin-bottom: 5px;
+}
+
+.profile_main_game, .detail_user 
+{
+    text-decoration: none;
+}
+
+.profile_main_game span, .detail_user span
+{
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.detail_user span
+{
+    text-transform: capitalize;
+}
+
+.profile_main_game span:hover, .detail_user span:hover
+{
+    color: gold;
+}
+
+.profile_main_game_image
+{
+    width: 45px;
+    height: auto;
+}
+
+.detail_user_image
+{
+    width: 40px;
+    height: auto;
+}
+
+/*Friends and follows*/
+.friend_follow_content_header_nav li
+{
+    display: inline-block;
+    padding: 2px 2px 2px 2px;
+    text-transform: uppercase;
+}
+
+.friend_follow_content_header_nav li a
+{
+    font-size: 12px;
+    text-decoration: none;
+    color: white;
+}
+
+.friend_follow_content_header_nav li a:hover
+{
+    color: gold;
+    cursor: pointer;
+}
+
+/* Game info platform list*/
+.game_profile_image
+{
+    width: 75px;
+    height: auto;
+}
+
+.platform_game_list
+{
+    list-style: none;
+}
+
+.platform_game_list li
+{
+    display: inline-block;
+}
+
+.ps4_span, .ps3_span, .xone_span, .x360_span, .pc_span, .n3ds_span
+{
+    font-weight: bold;
+    text-shadow: 0 0 4px black;
+    padding: 2px;
+    text-transform: uppercase;
+}
+
+.ps4_span
+{
+    background-color: royalblue;
+}
+
+.ps3_span
+{
+    background-color: darkblue;
+}
+
+.xone_span
+{
+    background-color: darkgreen;
+}
+
+.x360_span
+{
+    background-color: greenyellow;
+}
+
+.pc_span
+{
+    background-color: dimgrey;
+}
+
+.owned_version, .wishlist_version, .main_game_version
+{
+    
+    background-color: maroon;
+    background-position: right; 
+    background-repeat: no-repeat;
+    margin-left: 1px;
+    padding: 3px;
+    padding-right: 13px;
+    border-radius: 1px 1px 1px 1px;
+    border: 1px solid rgb(255,215,0);
+    outline: none;
+}
+
+.owned_version
+{
+    background-image: url('VGK_Icon/checked_gold.png');
+    background-size: 10px 10px;
+}
+
+.wishlist_version
+{
+    background-image: url('VGK_Icon/wishlist_gold.png');
+    background-size: 10px 14px;
+}
+
+.main_game_version
+{
+    background-image: url('VGK_Icon/star_gold.png');
+    background-size: 14px 14px;
+}
+
+.nothing_left
+{
+    font-size: 12px;
+    font-weight: normal;
+    font-style: italic;
+}
+
+.detail_date, .need_help
+{
+    font-size: 12px;
+    font-style: italic;
+}
+
+.important_info
+{
+    font-weight: bold;
+    color: gold;
+    text-decoration: none;
+}
+
+.vs
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: gold;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-shadow: 0 0 4px #FF0000;
+}
+
+.header_icon
+{
+    width: 30px;
+    height: auto;
+}

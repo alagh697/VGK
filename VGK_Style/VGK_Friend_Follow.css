@@ -1,0 +1,52 @@
+/*Friend list*/
+.friend_table 
+{
+    width: 400px;
+}
+
+.friend_request_table
+{
+    width: 500px;
+    margin-bottom: 15px;
+}
+
+.friend_table thead, .friend_request_table thead
+{
+    background-color: rgba(0, 0, 0, 0.8);
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.friend_table th, .friend_request_table th
+{
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.friend_table td, .friend_request_table td
+{
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 14px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+td.submit_request
+{
+    background-color: transparent;
+}
+
+.since
+{
+    font-size: 10px;
+    font-weight: normal;
+    font-style: italic;
+    float: right;
+}
+

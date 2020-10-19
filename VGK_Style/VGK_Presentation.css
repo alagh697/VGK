@@ -1,0 +1,122 @@
+.top_banner
+{
+    min-width: 800px;
+    margin-bottom: 50px;
+    background: #800000;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.log_reg
+{
+    float: right;
+    color: #eee;
+    padding-top:18px;
+    padding-bottom: 0px;
+}
+
+.log_reg a
+{
+    padding: 7px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    border-bottom: 5px solid gold;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+}
+
+.log_reg a:hover
+{
+    color: gold;
+}
+
+.log_reg a:active
+{
+    color: gold;
+    text-shadow: 0 0 10px;
+}
+
+.vgk_name_logo
+{
+    padding-top: 11px;
+    padding-bottom: 8px;
+}
+
+.presentation
+{
+    padding: 10px;
+    margin-left: 30%;
+    margin-right: 30%;
+    background: #800000;
+    width: 650px;
+}
+
+.presentation_content
+{
+    overflow:hidden;
+    position:relative;
+    background-color: black;
+    border: 1px solid gold;
+}
+
+.presentation ul
+{
+    list-style:none;
+}
+
+.presentation li
+{
+    padding: 15px;
+}
+
+.presentation_table td
+{
+    padding-right: 10px;
+}
+
+.presentation_td
+{
+    vertical-align: top; 
+}
+
+.presentation_title
+{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.presentation_text
+{
+    font-size: 14px;
+}
+
+.presentation_top
+{
+    padding: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.presentation_bottom
+{
+    padding: 10px;
+    text-align: center;
+}
+
+.twitter_link
+{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+.twitter_link:hover
+{
+    cursor: pointer;
+    color: gold;
+}

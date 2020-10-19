@@ -1,0 +1,13 @@
+<?php 
+    require('Game_Profile_Add_Library_Pop_Up.php'); 
+    require('Game_Profile_Add_Wishlist_Pop_Up.php');
+    if($session_user_own_game)
+    {
+        require('Game_Session_Form_Pop_Up.php');
+        require('Game_Availability_Form_Pop_Up.php');
+        require('Game_Challenge_Form_Pop_Up.php');
+        require('Game_Duel_Form_Pop_Up.php');
+        require('Game_Goal_Form_Pop_Up.php');
+    }
+    require('News_Feed_Post_Form_Pop_Up.php');
+?>

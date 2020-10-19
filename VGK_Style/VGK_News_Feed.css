@@ -1,0 +1,79 @@
+.news_feed_list
+{
+    list-style: none;
+}
+
+.news_feed_list li
+{
+    margin-bottom: 5px;
+}
+
+.tab_post
+{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    padding: 5px;
+    width: 400px;
+}
+
+.tab_post:hover
+{
+    background-color: rgba(255, 215, 0, 0.1);
+}
+
+td.post_left_column
+{
+    width: 60px;
+}
+
+.post_user
+{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.post_user:hover
+{
+    color: gold;
+    text-decoration: underline;
+}
+
+.post_user_pp
+{
+    width: 55px;
+    height: 55px;
+}
+
+.post_game_cover
+{
+    width: 55px;
+    height: auto;
+}
+
+.post_event_link
+{
+    color: gold;
+    text-decoration: none;
+}
+
+.post_event_link:hover
+{
+    text-decoration: underline;
+}
+
+/*.post_message
+{
+    font-size: 14px;
+}*/
+
+.post_vs
+{
+    font-size: 16px;
+    font-weight: bold;
+    color: gold;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-shadow: 0 0 4px #FF0000;
+}
